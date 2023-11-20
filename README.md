@@ -3,6 +3,8 @@
     
     pip install openai==0.28.0
 
+下载并打开prompt.py
+
 需要手动修改参数
 ```python
 #官方API调用
