@@ -3,6 +3,7 @@
     
     pip install openai==0.28.0
 
+需要手动修改参数
 ```python
 #官方API调用
 openai.api_key ="这里填写你的key"
@@ -22,5 +23,9 @@ use_modle='gpt-3.5-turbo'#本次询问使用的模型
 
 INPUT_FILE_PATH = "./output1.csv"#读入文本路径
 OUTPUT_JSON_FILE = "./out.csv"#输出文本路径
-```    
-需要手动修改参数
+```
+填完参数后，把输入的csv文件放在同一目录下，直接运行python脚本即可
+
+# csv文件要求：
+
+
